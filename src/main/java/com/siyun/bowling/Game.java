@@ -28,7 +28,6 @@ public class Game {
             }
         }
         scores[9] = scores[8] + rolls[18] + rolls[19] + rolls[20];
-        System.out.println(Arrays.toString(scores));
     }
 
 }

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.siyun.bowling.GameTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-05-01T04:05:40" hostname="Siyuns-MacBook-Pro.local" time="0.023">
+<testsuite name="com.siyun.bowling.GameTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-05-01T04:12:12" hostname="Siyuns-MacBook-Pro.local" time="0.023">
   <properties/>
-  <testcase name="shouldReturnZeroWhenCreateNewGame()" classname="com.siyun.bowling.GameTest" time="0.02"/>
-  <testcase name="shouldScoreZeroForAllGutters()" classname="com.siyun.bowling.GameTest" time="0.002"/>
-  <system-out><![CDATA[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-]]></system-out>
+  <testcase name="should return correct score for a random game" classname="com.siyun.bowling.GameTest" time="0.017"/>
+  <testcase name="should return 300 for perfect game" classname="com.siyun.bowling.GameTest" time="0.001"/>
+  <testcase name="should return 20 for all ones game" classname="com.siyun.bowling.GameTest" time="0.0"/>
+  <testcase name="should return 22 for one strike followed by 2 rolls of 3 pins" classname="com.siyun.bowling.GameTest" time="0.0"/>
+  <testcase name="should return 19 for one spare followed by 2 rolls of 3 pins" classname="com.siyun.bowling.GameTest" time="0.0"/>
+  <testcase name="should return 0 when create a new game" classname="com.siyun.bowling.GameTest" time="0.0"/>
+  <testcase name="should return 0 all gutters game" classname="com.siyun.bowling.GameTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
