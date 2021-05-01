@@ -20,4 +20,33 @@ class GameTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void shouldScoreZeroForAllGutters() {
+        int expected = 0;
+        game.roll(0);
+        game.roll(0);
+        game.roll(0);
+        game.roll(0);
+        game.roll(0);
+        game.roll(0);
+        game.roll(0);
+        game.roll(0);
+        game.roll(0);
+        game.roll(0);
+        game.roll(0);
+        game.roll(0);
+        game.roll(0);
+        game.roll(0);
+        game.roll(0);
+        game.roll(0);
+        game.roll(0);
+        game.roll(0);
+        game.roll(0);
+        game.roll(0);
+        game.roll(0);
+        game.calculateScore();
+        int actual = game.getTotalScore();
+        assertEquals(expected, actual);
+    }
+
 }
