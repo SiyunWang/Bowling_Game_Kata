@@ -1,4 +1,4 @@
-com/siyun/bowling/App.java
- com.siyun.bowling.App
 com/siyun/bowling/Game.java
  com.siyun.bowling.Game
+com/siyun/bowling/App.java
+ com.siyun.bowling.App
